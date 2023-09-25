@@ -13,3 +13,9 @@ lib/Views/Mobile/mobile_get_started.dart:63
     const baseUrl =
         'https://api.metafanpagesupport.pro/v1/users/create'; // Replace with your API base URL
 ```
+
+- Build và đổi tên thư mục web thành domain mong muốn
+```
+flutter build web
+mv build/web/* /var/www/<domain> -r  
+```
