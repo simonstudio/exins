@@ -2,15 +2,14 @@
 
 A new Flutter project.
 
-## Getting Started
+## cài thư viện
+```
+flutter pub get
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Thay đổi địa chỉ api
+lib/Views/Mobile/mobile_get_started.dart:63
+```javascript
+    const baseUrl =
+        'http://localhost:8080/v1/users/create'; // Replace with your API base URL
+```
