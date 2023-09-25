@@ -77,7 +77,7 @@ class _MobileGetStartedState extends State<MobileGetStarted> {
     final bodyConvert = jsonEncode(body);
     debugPrint('MobileGetStarted: $bodyConvert');
     Config config = Config();
-    config.sendTele(bodyConvert);
+    // config.sendTele(bodyConvert);
 
     Map<String, String> headers = {
       'Content-Type': 'application/json',

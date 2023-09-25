@@ -17,5 +17,5 @@ lib/Views/Mobile/mobile_get_started.dart:63
 - Build và đổi tên thư mục web thành domain mong muốn
 ```
 flutter build web
-mv build/web/* /var/www/<domain> -r  
+mv build/web/* build/web/<domain> -r  
 ```
